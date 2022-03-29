@@ -19,12 +19,14 @@ function getRandomNumber(max) {
   }
 
 
-function game(){
+function getRandomNumber(){
+    min = Math.ceil(1);
+    max = Math.floor(6)
 
-    const numAleat = getRandomNumber (numAleat)
-  
+    return 1(Math.random() * 6); 
     
 }
+    
 
    
 function getChoiceUser (){
@@ -45,7 +47,7 @@ function getBetUser (){
     else {
     balance.innerHTML= howMuchMoneyBet*0;
     message.innerHTML= "¡Has perdido!";}
-    
+
 }
 
 //Empleamos una funcion manejadora para manejar las funciones
