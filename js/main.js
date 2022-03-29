@@ -13,20 +13,14 @@ const userChoice = options.value;
 
 
 function getRandomNumber(max) { 
-    
-    return Math.ceil(Math.random() * max); 
+    return Math.ceil(Math.random() * max);    
    
   }
 
 
-function getRandomNumber(){
-    min = Math.ceil(1);
-    max = Math.floor(6)
 
-    return 1(Math.random() * 6); 
-    
-}
-    
+  const numAleat =getRandomNumber (6);
+  console.log(numAleat);
 
    
 function getChoiceUser (){
@@ -36,7 +30,8 @@ function getChoiceUser (){
 }
 
 function getBetUser (){
-    
+ 
+
     const howMuchMoneyBet = userBet.value;
 
     if (numAleat === userChoice){
@@ -58,7 +53,7 @@ function handleClickPlay(event) {
     getRandomNumber();
   
    getChoiceUser();
-
+   getBetUser ()
 
 }
 
