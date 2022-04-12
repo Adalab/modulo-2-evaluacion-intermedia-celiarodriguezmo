@@ -11,10 +11,10 @@
     <main>
       <h1>Dados y apuestas</h1>
       <p>Introduce aquí tu jugada</p>
-      <div class="js_divresult preview-result"></div>
+
       <form action="">
         <select class="select js_select" name="select-options" id="">
-          <option value="">¿Qué número apuestas del 1 al 6?</option>
+          <option value="select">¿Qué número apuestas del 1 al 6?</option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
@@ -24,6 +24,7 @@
         </select>
         <input class="js_bet" type="text" placeholder="¿Cuánto apuestas?" />
         <input class="js_play" type="button" value="Jugar" />
+        <button class="reset js_reset hidden">Reiniciar Juego</button>
       </form>
       <h2 class="js_message">¡Vamos a jugar!</h2>
       <p class="js_balance">Saldo 50</p>
